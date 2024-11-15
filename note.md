@@ -51,5 +51,16 @@ Và khi mở lên dữ án, nó chỉ hiển thị tệp 1 khi dùng Liver xem t
 <!-- Nhánh của git checkout -->
 - git branch 
 <!-- Sau khi dùng git checkout thì ta sử dụng git branch. Nó sẽ hiển thị nhân tố đằng sau của git checkout. 
-    Ví dụ: git checkout master là mọt -->
+    Ví dụ: git checkout master là một dạng resert. 
+            Thì dùng git branch, nó trả về master
+            
+    Ví dụ: git checkout 9372
+            Thì git branch: 9372 -->
 
+
+
+<!--  Đẩy code từ local repository (máy tính) lên remote repository (GitHub)
+25:27: Lấy code từ remote repository đã có sẵn GitHub về local repository (máy tính)
+28:00: Tạo và đẩy branch (nhánh) ở local lên Repository remote (GitHub)
+29:18 : Lấy branch (nhánh) từ Repository remote (GitHub) về local repository (máy tính)
+33:00: git ignore (ngăn chặn git theo dõi 1 file nào đó) -->
